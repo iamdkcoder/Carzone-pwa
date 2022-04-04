@@ -1,5 +1,16 @@
 const cacheName = "pwa-conf-v1";
-const staticAssets = ["./", "./index.html", "./app.js", "./style.css"];
+const staticAssets = [
+  "./",
+  "./index.html",
+  "./about.html",
+  "./car-details.html",
+  "./cars.html",
+  "./dashboard.html",
+  "./login.html",
+  "./service.html",
+  "./app.js",
+  "./style.css",
+];
 
 self.addEventListener("install", async (event) => {
   const cache = await caches.open(cacheName);
