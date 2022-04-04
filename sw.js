@@ -7,7 +7,7 @@ const staticAssets = [
   "./cars.html",
   "./dashboard.html",
   "./login.html",
-  "./service.html",
+  "./services.html",
   "./app.js",
   "./style.css",
 ];
